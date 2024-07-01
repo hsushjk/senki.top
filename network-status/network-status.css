@@ -1,0 +1,9 @@
+#network-status {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #9E9E9E;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,1 +1,142 @@
-<h1>test</h1>
+<!DOCTYPE html>
+<html class="Homepage" lang="zh-Hans">
+  <head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="./network-status/network-status.css">
+    <link rel="icon" href="./favicon.ico" mce_href="./favicon.ico" type="image/x-icon">  
+    <link rel="shortcut icon" href="./favicon.ico" mce_href="./favicon.ico" type="image/x-icon">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">:root { --color-gray: #dddddd; --color-dark-gray: #333333; }</style>
+    <style type="text/css">:root { --font-1: "Google Sans Display"; } body { --font-1: "Google Sans Display"; --font-body: var(--font-1); --font-headline: var(--font-1); --font-list-title: var(--font-1); --font-promo-title: var(--font-1); --font-promo-description: var(--font-1); --font-rte-body: var(--font-1); --font-pull-quote: var(--font-2); }</style>
+    <link data-cssvarsponyfill="true" class="Webpack-css" rel="stylesheet" href="./resource_index/All.min.css">
+    <link rel="stylesheet" href="./resource_index/flickity.min.css">
+    <style>@media all and (min-width:0px) and (max-width: 625px) { .Homepage-backgroundImage { display: none; } }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5">
+    <title>千木社 & SENKI.TOP</title>
+    <!-- this will add webcomponent polyfills based on browsers. As of 04/29/21 still needed for IE11 and Safari -->
+    <script src="./resource_index/webcomponents-loader.js">
+    </script>
+    <script>/**
+            This allows us to load the IE polyfills via feature detection so that they do not load
+            needlessly in the browsers that do not need them. It also ensures they are loaded
+            non async so that they load before the rest of our JS.
+        */
+      var head = document.getElementsByTagName('head')[0];
+      if (!window.CSS || !window.CSS.supports || !window.CSS.supports('--fake-var', 0)) {
+        var script = document.createElement('script');
+        script.setAttribute('src', "/util/IEPolyfills.js");
+        script.setAttribute('type', 'text/javascript');
+        script.async = false;
+        head.appendChild(script);
+      }</script>
+    <script src="./resource_index/All.min.js" async="">
+    </script>
+    <script src="./resource_index/flickity.pkgd.min.js" async="">
+    </script>
+    <script>
+            var link = document.createElement('link');
+            link.setAttribute('href', '//fonts.googleapis.com/css?family=Open+Sans:300,400,700|Merriweather:300,400,700');
+            var relList = link.relList;
+
+            if (relList && relList.supports('preload')) {
+        link.setAttribute('as', 'style');
+        link.setAttribute('rel', 'preload');
+        link.setAttribute('onload', 'this.rel="stylesheet"');
+        link.setAttribute('crossorigin', 'anonymous');
+      } else {
+        link.setAttribute('rel', 'stylesheet');
+      }
+
+      head.appendChild(link);</script>
+    <link href="./resource_index/css" as="style" rel="stylesheet" onload="this.rel=&quot;stylesheet&quot;">
+    <style>
+    a:link {
+			color:gray;
+    </style>
+  </head>
+  
+  <body class="Page-body">
+    <a id="network-status">Analyze不再可用</a>
+    <a class="skip-to-content-link" href="./index.html/#main" data-cms-ai="0">跳转到主要内容</a>
+    <header class="Page-header">
+      <div class="Page-header-bar">
+        <div class="Page-header-bar-logo">
+          <a aria-label="home page" href="./index.html" data-cms-ai="0">
+            <img class="PageLogo-image" src="./resource_index/logo1.png" alt="logo.png" srcset="./resource_index/logo1.png" width="400" height="94">
+          </a>
+        </div>
+        <div class="Page-header-eyebrow">
+          <a class="Link" href="http://www.senki.top/" data-cms-ai="0">查看千木旧事</a>
+        </div>
+      </div>
+    </header>
+    <main class="Homepage-content" id="main">
+      <div class="Homepage-contentWrapper">
+        <div class="Homepage-pageLead" data-pagelead="">
+          <div class="HomepageHeading">
+            <div class="HomepageHeading-content-wrapper">
+              <div class="HomepageHeading-content">
+                <div class="HomepageHeading-logo">
+                  <picture>
+                    <source type="image/webp" width="200" height="196" data-srcset="./resource_index/senkiblock.png 1x,./resource_index/senkiblock.png" data-lazy-load="true" srcset="./resource_index/senkiblock.png 1x,./resource_index/senkiblock.png">
+                      <source width="200" height="196" data-srcset="./resource_index/senkiblock.png" data-lazy-load="true" srcset="./resource_index/senkiblock.png">
+                        <img class="Image" alt="senki G Block" srcset="./resource_index/senkiblock.png 1x,./resource_index/senkiblock.png" width="200" height="196" data-src="./resource_index/senkiblock.png" src="./resource_index/senkiblock.png" data-lazy-loaded="true">
+                  </picture>
+                </div>
+                <h1 class="HomepageHeading-title">千木社</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Homepage-letter">
+          <bsp-rich-more class="RichTextModule ShortText" data-module="" style="--ogHeight: 2382px;">
+            <div class="RichTextModule-shortItems RichTextBody">
+              <p>千木社已关停，这是它的归档页面，单击“More...”或右上角了解更多旧事</p>
+              <span class="more-button">More...</span>
+            </div>
+            <div class="RichTextModule-items RichTextBody">
+              <p>千木社原名“Fuqing博客”，成立于2022年，七月末更名为千木社。在2024年7月，在多种原因的共同作用下，千木社停运归档。</p>
+              <p></p>
+              <p>千木社在过去为广大用户提供免费网络服务而存在，围绕安全/稳定/便捷/高效进行试错，试图找到一个平衡点为用户服务。</p>
+              <p></p>
+              <p>我们曾经开放过的服务/项目：</p>
+              <ul>
+                <li>海外网站镜像站</li>
+                <li>邮箱注册</li>
+                <li>电子邮件路由(傀儡邮件地址)</li>
+                <li>博客</li>
+                <li>异地组网</li>
+                <li>Minecraft服务器</li>
+                <li>二级域名分发系统</li>
+                <li>GitHub加速</li>
+                <li>Warp</li>
+                <li>http(s)穿透</li>
+                <li>DNS服务</li>
+                <li>网盘云上Senki</li>
+                <li>反审查CGFW</li>
+                <li>维基文献图书馆</li>
+                <li>KMS激活服务</li>
+                <li>NTP时间同步服务</li>
+                <li>内网穿透FRP</li>
+              </ul>
+              <p>*本界面仿写自abcxyz，我很喜欢这种风格的界面。你可以从github release下载关站前的最后的静态文件。</p>
+            </div>
+          </bsp-rich-more>
+        </div>
+      </div>
+    </main>
+    <footer class="Page-footer">
+      <div class="Page-footer-container">
+        <div class="Page-footer-leftWrapper">
+          <div class="Page-footer-logo">
+            <a aria-label="home page" href="./" data-cms-ai="0">
+              <img class="PageLogo-image" src="./resource_index/logo2.png" alt="senki Footer" srcset="./resource_index/logo2.png" width="400" height="97">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
